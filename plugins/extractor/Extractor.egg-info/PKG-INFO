@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: Extractor
+Version: 0.2
+Summary: Extract files upon completion
+Home-page: http://deluge-torrent.org
+Author: Andrew Resch
+Author-email: andrewresch@gmail.com
+License: GPLv3
+Description: Extract files upon completion
+Platform: UNKNOWN
