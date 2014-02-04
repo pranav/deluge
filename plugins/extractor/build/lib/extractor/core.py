@@ -132,7 +132,8 @@ class Core(CorePluginBase):
         files = tid.get_files()
         for f in files:
             cmd = ''
-            file_ext = os.path.splitext(os.path.splitext(f["path"])[0])[1] + os.path.splitext(f["path"])[1]
+            #file_ext = os.path.splitext(os.path.splitext(f["path"])[0])[1] + os.path.splitext(f["path"])[1]
+            file_ext = '.' + f['path'].split('.')[-1]
             if file_ext in EXTRACT_COMMANDS:
                 cmd = EXTRACT_COMMANDS[file_ext]
             else:
